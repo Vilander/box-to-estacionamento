@@ -9,7 +9,7 @@ export default function Input({ ...rest }: TextInputProps) {
       autoCorrect={false}
       keyboardType="default"
       editable={true}
-      maxLength={8}
+      maxLength={7}
       {...rest} 
     />
   );
